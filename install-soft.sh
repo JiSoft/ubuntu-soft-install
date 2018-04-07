@@ -35,7 +35,7 @@ sudo add-apt-repository ppa:rvm/smplayer -y
 sudo add-apt-repository ppa:caffeine-developers/ppa -y
 sudo add-apt-repository ppa:notepadqq-team/notepadqq -y
 sudo add-apt-repository ppa:me-davidsansome/clementine -y
-sudo add-apt-repository ppa:graysky/utils
+sudo add-apt-repository ppa:graysky/utils -y
 sudo add-apt-repository ppa:trebelnik-stefina/ubuntu-tweak -y
 sudo add-apt-repository ppa:nathan-renniewaldock/flux -y
 # [ Mongo 3.6 ]
@@ -63,7 +63,7 @@ sudo apt-get install notepadqq -y
 sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/bin/youtube-dl
 sudo chmod a+rx /usr/bin/youtube-dl
 sudo apt-get install ubuntu-tweak -y
-sudo apt-get install fluxgui
+sudo apt-get install fluxgui -y
 sudo apt-get install dconf-editor -y
 sudo apt-get install dconf-tools -y
 sudo apt-get install profile-cleaner -y
