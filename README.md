@@ -36,3 +36,10 @@ These ones will be installed:
 - mongodb
 - redis
 - wget, curl, mc, nmap, htop, vim, git `
+
+## Install
+`$ cd /path/to/this/repo/folder `
+`$ sudo chmod +x install-soft.sh`
+`$ ./install-soft.sh`
+
+It will be rebooted in 15 seconds after finishing of the whole installation.
