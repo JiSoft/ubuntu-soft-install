@@ -56,6 +56,7 @@ sudo apt-get install pavucontrol -y
 sudo apt-get install clementine -y
 sudo apt-get install audacity -y
 sudo apt-get install smplayer smtube smplayer-skins smplayer-theme -y
+sudo apt-get install ffmpeg -y
 sudo apt-get install gnome-paint -y
 sudo apt-get install pinta -y
 sudo apt-get install shutter -y
