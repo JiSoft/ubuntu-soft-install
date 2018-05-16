@@ -90,6 +90,7 @@ chmod +x phpbrew
 sudo mv phpbrew /usr/local/bin/phpbrew
 phpbrew init
 echo "[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc" >> ~/.bashrc
+sudo apt-get install php-xdebug
 # [ MySQL]
 sudo apt-get install mysql-server -y
 # [ Mongo ]
