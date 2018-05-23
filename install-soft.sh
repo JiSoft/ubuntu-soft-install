@@ -75,9 +75,20 @@ sudo apt-get install p7zip -y
 sudo apt-get install p7zip-full -y
 sudo apt-get install p7zip-rar -y
 # [ Dev soft ]
-sudo apt-get -y install wget curl mc nmap htop vim git
+sudo apt-get -y install wget curl mc nmap htop
+# [vim]
+sudo apt-get install vim -y
 mkdir ~/.vim/swap
 mkdir ~/.vim/backup
+# [git]
+sudo apt-get install git gitk -y
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.b branch
+git config --global alias.br 'branch -v -a'
+git config --global alias.last 'log -1 HEAD'
+git config --global alias.v '!gitk'
+# [nginx]
 sudo apt-get -y install nginx
 # [ nvm ]
 sudo apt-get install -y build-essential libssl-dev
