@@ -74,6 +74,7 @@ sudo apt-get install unrar -y
 sudo apt-get install p7zip -y
 sudo apt-get install p7zip-full -y
 sudo apt-get install p7zip-rar -y
+sudo apt-get install xclip - y
 # [ Dev soft ]
 sudo apt-get -y install wget curl mc nmap htop
 # [vim]
