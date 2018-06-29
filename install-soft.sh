@@ -117,6 +117,14 @@ sudo apt-get install secure-delete
 echo "export PS1=\"\[\e[35m\]\u\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]\[\e[31m\]\\$\[\e[m\] \"" >> ~/.bashrc
 source ~/.bashrc
 
+# Easy search in terminal command history 
+# by typing first letters and then <Up> twice
+# it looks more comfortable then <Ctrl-r> searching
+# cause it saves cursor position at the same place
+# and requires less key pressing then by <Ctrl-r> way
+echo '"\e[A": history-search-backward' > ~/.inputrc
+echo '"\e[B": history-search-forward' >> ~/.inputrc
+
 # Clean & update after install
 sleep 2
 sudo apt-get update -y
