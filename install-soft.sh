@@ -114,6 +114,9 @@ sudo apt-get install redis-server -y
 # [ Secure soft ]
 sudo apt-get install secure-delete
 sudo apt-get install pwgen
+sudo apt-get install pass
+# [ Admin soft ]
+sudo aptitude install lnav
 
 # Colorize prompt
 echo "export PS1=\"\[\e[35m\]\u\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]\[\e[31m\]\\$\[\e[m\] \"" >> ~/.bashrc
