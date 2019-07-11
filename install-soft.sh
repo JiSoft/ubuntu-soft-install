@@ -7,7 +7,6 @@ sudo apt-get purge pix -y
 sudo apt-get purge rhythmbox -y
 sudo apt-get purge pidgin -y
 sudo apt-get purge xplayer -y
-sudo apt-get purge openjdk*
 # intel video driver - 
 # should remove after changing of video driver in 
 # Settings -> Driver Manager
@@ -23,8 +22,6 @@ sudo apt-get install -f
 sleep 1
 
 # Add the repositories
-# [ Oracle Java ]
-sudo add-apt-repository ppa:webupd8team/java -y
 # [ PHP ]
 sudo add-apt-repository ppa:ondrej/php -y
 # [ User soft ]
