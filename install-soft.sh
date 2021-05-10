@@ -73,7 +73,9 @@ sudo apt-get install p7zip-full -y
 sudo apt-get install p7zip-rar -y
 sudo apt-get install xclip - y
 # [ Dev soft ]
-sudo apt-get -y install wget curl mc nmap htop
+sudo apt-get -y install wget curl mc nmap htop terminator fonts-powerline
+# [ Sys Utils ]
+apt install -y ranger neofetch feh ncdu
 # [vim]
 sudo apt-get install vim -y
 mkdir ~/.vim/swap
@@ -114,6 +116,8 @@ sudo apt-get install pwgen
 sudo apt-get install pass
 # [ Admin soft ]
 sudo aptitude install lnav
+# [ Just for fun ]
+sudo apt install cowsay hollywood cmatrix
 
 # Colorize prompt
 echo "export PS1=\"\[\e[35m\]\u\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]\[\e[31m\]\\$\[\e[m\] \"" >> ~/.bashrc
